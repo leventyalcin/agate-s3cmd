@@ -4,6 +4,7 @@ class s3cmd::config (
   $aws_access_key,
   $aws_secret_key,
   $user,
+  $gpg_passphrase,
 )
 {
   $config_file = $user ? {
