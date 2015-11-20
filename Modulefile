@@ -1,0 +1,8 @@
+name 'agate-s3cmd'
+version '0.0.1'
+source 'git://github.com/leventyalcin/agate-s3cmd.git'
+author 'Levent Yalcin'
+license 'Apache 2.0'
+summary 's3cmd Module'
+description 's3cmd module for installation and get/sync files'
+project_page 'git://github.com/leventyalcin/agate-s3cmd'
