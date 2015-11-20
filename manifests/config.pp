@@ -15,7 +15,7 @@ class s3cmd::config (
     ensure  => present,
     mode    => '0600',
     owner   => $user,
-    content => template('s3cmd/s3cmd.erb')
+    content => template('s3cmd/s3cfg.erb')
 
   }
 }
