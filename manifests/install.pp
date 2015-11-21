@@ -19,6 +19,7 @@ class s3cmd::install (
   package { 's3cmd':
       ensure   => 'installed',
       provider => $package_provider,
+      require  => File['/usr/bin/pip-python'],
   }
 
 }
